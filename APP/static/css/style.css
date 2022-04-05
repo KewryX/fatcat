@@ -1,3 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: grid;
+    border: 3px solid black;
+    text-align: center;
+    padding: 30px;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+}
+
 body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 180px auto;
+    height:100rem;
+    background-color: chartreuse;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+    grid-template-rows: 50% 50%;
+    row-gap: 10px;
+    height:20%;
+
+}
+
+aside{
+
+    height: 100%;
     background-color: blueviolet;
+}
+
+#balkep{
+
+   grid-row-end: span 2;
+}
+
+#jobbkep{
+    grid-row-end: span 2;
+}
+
+#joke{
+    display:grid;
+    grid-column-start: 0;
+    grid-column-end: span 4;
+
+    border: 3px solid black;
+    font-size: 26px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+
+}
+
+#category{
+    display: grid;
+    border: 3px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+#type{
+    display: grid;
+    border: 3px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+#flags{
+    display: grid;
+    border: 3px solid black;
+    text-align: left;
+    align-content: center;
+}
+
+li{
+
+    list-style-type: none;
 }
