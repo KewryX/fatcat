@@ -15,6 +15,7 @@ header{
     background-color: blue;
 }
 
+
 body{
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -61,7 +62,20 @@ aside{
     background-color: aqua;
 
 }
+#delivery{
+    display:grid;
+    grid-column-start: 0;
+    grid-column-end: span 4;
 
+    border: 3px solid black;
+    font-size: 26px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+
+}
 #category{
     display: grid;
     border: 3px solid black;
